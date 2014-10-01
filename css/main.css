@@ -51,27 +51,29 @@ img {
     text-decoration: none;
 }
 
+.opener {
+    background-color: #e2e2e2;
+    text-align: center;
+}
 
 @media only screen and (min-width: 30em) {
         
-    .nav {
-        text-align: center;
-    }
-    
-    .nav li {
-        display: inline-block;
-    }
+.nav {
+    text-align: center;
 }
+    
+.nav li {
+    display: inline-block;
+}
+
 
 @media only screen and (min-width: 50em) {
 
-    .nav {
-        float: left;
-        padding-top: 1rem;
-    }
-    
-    .title {
-        float: left;
-        padding: 0;
-    }  
+.nav {
+    float: left;
+    padding-top: 1rem;
 }
+    
+.title {
+    float: left;
+    padding: 0;

@@ -16,6 +16,24 @@ html {
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width: 60em) {
+    html {
+        font-size: 110%;
+    }
+}
+    
+@media only screen and (min-width: 90em) {
+    html {
+        font-size: 120%;
+    }
+}
+    
+@media only screen and (min-width: 120em) {
+    html {
+        font-size: 130%;
+    }
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -64,25 +82,102 @@ img {
     background-color: #efefef;
 }
 
-@media only screen and (min-width: 30em) {
+
+@media only screen and (min-width: 25em) {
         
-.nav {
-    text-align: center;
-}
+    .nav {
+        text-align: center;
+    }
     
-.nav li {
-    display: inline-block;
-}
-
-
-@media only screen and (min-width: 50em) {
-
-.nav {
-    float: left;
-    padding-top: 0;
-}
+    .nav li {
+        display: inline-block;
+    }
     
-.title {
-    float: left;
-    padding: 0;
+    .copyright {
+        text-align: center;
+    }
+    
+    .bottom-ul li::after {
+        content: " ·";
+    }
+    
+    .bottom-ul a {
+        display: inline;
+    }
+    
+    .bottom-ul :last-child::after {
+        content: none;
+    }
+}
+
+@media only screen and (min-width: 38em) {
+
+    .nav {
+        float: left;
+        padding-top: 0;
+    }
+    
+    .title {
+        float: left;
+        padding: 0;
+    }
+    
+    .bottom-ul {
+        float: right;
+    }
+    
+    .copyright {
+        text-align: left;
+    } 
+    
+    .bottom-ul li::after {
+        content: " ·";
+    }
+    
+    .bottom-ul a {
+        display: inline;
+    }
+    
+    .bottom-ul :last-child::after {
+        content: none;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    
+    .bottom-ul {
+        float: right;
+    }
+    
+    .copyright {
+        text-align: left;
+    }
+    
+    dt {
+        float: left;
+        clear: left;
+        width: 9rem;
+    }
+
+    dd { 
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+
+    dl {
+        overflow: hidden;
+    }
+    
+    .bottom-ul li::after {
+        content: " ·";
+    }
+    
+    .bottom-ul a {
+        display: inline;
+    }
+    
+    .bottom-ul :last-child::after {
+        content: none;
+    }
 }

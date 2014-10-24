@@ -10,9 +10,15 @@
 </head>
 <body>
     
+<ul class="skip-links">
+    <li><a href="#main">Jump to Main Content</a></li>
+    <li><a href="#navigation">Jump to Navigation</a></li>
+</ul>
+
+<header role="banner">   
 <div class="grid unit unit-xs-1 back gutter pad-t-1-2">
     <h1 class="peta title">Saturn</h1>
-<nav>
+<nav id="navigation" role="navigation">
     <ul class="nav mega gutter">
         <li class="pad-b gutter-half pad-t-1-2"><a href="index.html">Planet</a></li>
         <li class="pad-b gutter-half pad-t-1-2"><a href="moons.html">Moons</a></li>
@@ -20,6 +26,9 @@
     </ul>
 </nav>
 </div>
+</header> 
+    
+<main id="main" role="main">
     
 <div class="peta opener gutter-half pad-t-1-2 pad-b-1-2">
     <p>Saturn, the sixth planet in the solar system.</p>
@@ -81,18 +90,17 @@
 </div>    
 </body>
 
-<footer>
-    <div class="back grid pad-top pad-bottom">
-        <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 copyright">
-            <p class="milli push-none gutter">© 2014 Saturn Planetary Consortium</p>
-        </div>
-            <nav class="gutter unit unit-s-1 unit-m-1-2 unit-l-1-2">
-                <ul class="nav kilo bottom-ul">
-                    <li><a href="index.html">Planet</a></li>
-                    <li><a href="moons.html">Moons</a></li>
-                    <li><a href="exploration.html">Exploration</a></li>
-                </ul>
-            </nav>
+<footer class="back grid pad-top pad-bottom">
+    <div role="contentinfo" class="unit unit-s-1 unit-m-1-2 unit-l-1-2 copyright">
+        <p class="milli push-none gutter">© 2014 Saturn Planetary Consortium</p>
+    </div>
+        <nav class="gutter unit unit-s-1 unit-m-1-2 unit-l-1-2">
+             <ul class="nav kilo bottom-ul">
+                <li><a href="index.html">Planet</a></li>
+                <li><a href="moons.html">Moons</a></li>
+                <li><a href="exploration.html">Exploration</a></li>
+            </ul>
+        </nav>
     </div>
 </footer>
 </html>

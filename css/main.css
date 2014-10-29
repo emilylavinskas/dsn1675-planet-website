@@ -115,6 +115,51 @@ img {
     background-color: #efefef;
 }
 
+.center {
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+input + label {
+    display: inline-block;
+}
+
+input[type="text"] {
+    padding: .75em;
+    width: 100%;
+}
+
+input[type="email"] {
+    padding: .75em;
+    width: 100%;
+}
+
+input[type="number"] {
+    padding: .75em;
+    width: 100%;
+}
+
+button {
+    font-size: 1.25em;
+    padding: 0.25em; 
+}
+
+form {
+    max-width: 45em;
+    margin: 0 auto;
+}
+
+.writing-area {
+    width: 100%;
+    height: 20em;
+}
+
+.radio {
+    white-space: nowrap;
+}
 
 @media only screen and (min-width: 25em) {
         

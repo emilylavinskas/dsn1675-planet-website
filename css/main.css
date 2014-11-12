@@ -50,7 +50,7 @@ a:focus {
 /*
 a:link,
 a:active {
-    outline: none;
+outline: none;
 }
 
 It is okay to get rid of the focus rectangle for mouse users, but NEVER for keyboard users */
@@ -209,17 +209,8 @@ form {
         text-align: center;
     }
     
-    .bottom-ul li::after {
-        content: " ·";
-    }
+
     
-    .bottom-ul a {
-        display: inline;
-    }
-    
-    .bottom-ul :last-child::after {
-        content: none;
-    }
 }
 
 @media only screen and (min-width: 38em) {
@@ -242,17 +233,7 @@ form {
         text-align: left;
     } 
     
-    .bottom-ul li::after {
-        content: " ·";
-    }
-    
-    .bottom-ul a {
-        display: inline;
-    }
-    
-    .bottom-ul :last-child::after {
-        content: none;
-    }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -281,15 +262,4 @@ form {
         overflow: hidden;
     }
     
-    .bottom-ul li::after {
-        content: " ·";
-    }
-    
-    .bottom-ul a {
-        display: inline;
-    }
-    
-    .bottom-ul :last-child::after {
-        content: none;
-    }
 }

@@ -110,11 +110,17 @@ img {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    text-align: center;
 }
 
 .nav a {
     text-decoration: none;
     color: #fff;
+}
+
+    
+.nav li {
+        display: inline-block;
 }
 
 .nav a,
@@ -195,21 +201,13 @@ form {
     white-space: nowrap;
 }
 
+
 @media only screen and (min-width: 25em) {
         
-    .nav {
-        text-align: center;
-    }
-    
-    .nav li {
-        display: inline-block;
-    }
     
     .copyright {
         text-align: center;
     }
-    
-
     
 }
 

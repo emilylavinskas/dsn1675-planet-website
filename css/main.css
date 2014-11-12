@@ -60,6 +60,25 @@ img {
   width: 100%;
 }
 
+.colour {
+    background-color: #0066CC;
+    overflow: hidden;
+}
+
+ .colour2 {
+    background-color: #66CCFF;
+}
+
+.colour3 {
+    background-color: #0099FF;
+}
+
+.nav {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;   
+}
+
 .skip-links {
     margin: 0;
     padding: 0;
@@ -81,11 +100,6 @@ img {
     top: 0;
 }
 
-.back {
-    background-color: #ccc;
-    overflow: hidden;
-}
-
 .title {
     text-align: center;
     padding: 0;
@@ -100,19 +114,39 @@ img {
 
 .nav a {
     text-decoration: none;
+    color: #fff;
 }
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+  display: block;
+
+  color: #66CCFF;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+  background-color: #fff;
+
+  color: #0099FF;
+}
+
+/* font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif; \
+
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited
+**/
 
 .opener {
-    background-color: #e2e2e2;
     text-align: center;
-}
-
-.open {
-    background-color: #e2e2e2;
-}
-
-.color {
-    background-color: #efefef;
 }
 
 .center {

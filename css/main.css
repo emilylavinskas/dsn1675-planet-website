@@ -206,12 +206,10 @@ form {
 }
 
 @media only screen and (min-width: 25em) {
-        
     
     .copyright {
         text-align: center;
-    }
-    
+    }   
 }
 
 @media only screen and (min-width: 38em) {
